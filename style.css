@@ -1,0 +1,144 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f0f2f5;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.left-container {
+  text-align: center;
+}
+
+div.form {
+  width: 396px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+  margin: 4px auto;
+  border: none;
+  border-radius: 8px;
+  background-color: #fff;
+  padding: 20px;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 24px;
+  margin-top: 4px;
+}
+
+.input .email,
+.input .pass {
+  padding: 6px 0;
+  margin: auto;
+  width: 364px;
+}
+
+input[type=text],
+input[type=password] {
+  width: 330px;
+  padding: 14px 16px;
+  font-size: 17px;
+  line-height: 16px;
+  border-radius: 6px;
+  border: 1px solid #dddfe2;
+  color: #1d2129;
+  box-sizing: content-box;
+}
+input[type=text]:focus,
+input[type=password]:focus {
+  outline: 1px solid #1877f2;
+  box-shadow: 1px 0.5px 2px #1877f2;
+}
+
+div.btn {
+  padding-top: 6px;
+  text-align: center;
+}
+div.btn input[type=submit] {
+  background-color: #1877f2;
+  border: none;
+  border-radius: 6px;
+  font-size: 20px;
+  line-height: 48px;
+  padding: 0 16px;
+  width: 332px;
+  cursor: pointer;
+  box-sizing: content-box;
+  text-shadow: none;
+  vertical-align: middle;
+  color: #fff;
+  font-weight: bold;
+  font-family: Helvetica, Arial, sans-serif;
+}
+div.btn input[type=submit]:hover {
+  background-color: #0f6ee9;
+}
+
+div.text-121 {
+  margin-top: 16px;
+  text-align: center;
+}
+div.text-121 a {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  color: #1877f2;
+  text-decoration: none;
+  cursor: pointer;
+}
+div.text-121 a:hover {
+  text-decoration: underline;
+}
+
+.line {
+  border-bottom: 1px solid #dadde1;
+  display: flex;
+  align-items: center;
+  margin: 20px 16px;
+  text-align: center;
+  width: 332px;
+  box-sizing: content-box;
+}
+
+div.btn-cna {
+  padding-top: 6px;
+  text-align: center;
+}
+div.btn-cna a {
+  background-color: #42b72a;
+  border: none;
+  border-radius: 6px;
+  font-size: 17px;
+  padding: 14px 16px;
+  line-height: 48px;
+  cursor: pointer;
+  text-decoration: none;
+  color: #fff;
+  vertical-align: middle;
+  box-sizing: content-box;
+  text-shadow: none;
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: bold;
+}
+div.btn-cna a:hover {
+  background-color: #35aa1d;
+}
+
+div.bottom-text {
+  color: #1c1e21;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  padding-top: 0;
+  border-top: 0;
+  margin-top: 28px;
+  text-align: center;
+}
+div.bottom-text a {
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+  color: #000;
+}
+div.bottom-text a:hover {
+  text-decoration: underline;
+}
